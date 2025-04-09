@@ -1,1 +1,81 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:wght@300;600;700;800&display=swap");
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.data-box {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1%;
+  padding: 2rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+.imgrecipe {
+  position: relative;
+  height: 30%;
+  width: 100%;
+  border-radius: 24px;
+}
+
+.prepinfo {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 24px;
+  padding: 2rem;
+}
+
+#prepbox,
+#items > * {
+  margin: 0.5em;
+  padding: 0 10px;
+}
+
+#items,
+ol {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+}
+
+ol > * {
+  margin: 0.2em;
+  padding: 0 10px;
+}
+
+ol li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+.prepinfo > h3 {
+  color: hsl(332, 51%, 32%);
+  font-weight: 800;
+}
+
+.data-box > h2 {
+  color: hsl(332, 51%, 32%);
+}
+
+.nut-table {
+  border-radius: 10px;
+  padding: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  font-weight: bold;
+  color: hsl(332, 51%, 32%);
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+tr:last-child td {
+  border-bottom: none;
+}
